@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb5f5f7c66443b44ab66afa2d4fa07d, type: 3}
+  m_Name: Bogema
+  m_EditorClassIdentifier: 
+  AnimatorController: {fileID: 9100000, guid: 32e5af5e04faed6438225a3242fd2b8e, type: 2}
+  TextboxSprite: {fileID: 21300000, guid: cded1fdbc6de2df4baed32b157e6ae33, type: 3}
+  AngryTextboxSprite: {fileID: 21300000, guid: e1b170559af7295408bd0c672cdd6e7a, type: 3}
+  Theme: 1
+  DownOffset: 200

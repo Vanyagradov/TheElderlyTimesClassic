@@ -2523,7 +2523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ba3e4ed5caffb4585a1311d966067d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bounds: {fileID: 1599080143}
   GameFlower: {fileID: 437962717}
   PlayerValues: {fileID: 437962716}
   ThrowDestination: {fileID: 7266468983523848659}
@@ -3998,12 +3997,12 @@ MonoBehaviour:
   Destination: {fileID: 8883375797706321971}
   Exit: {fileID: 689178291935299645}
   GrandmaDatas:
-  - {fileID: 11400000, guid: e59e5c6e6cff4134bb08863df39b539d, type: 2}
-  - {fileID: 11400000, guid: b11bca53e04d8f94197833817b2facf0, type: 2}
-  - {fileID: 11400000, guid: 51940d2db4c5f0d4cbdf77d0dcc9fea2, type: 2}
-  - {fileID: 11400000, guid: e21df7021fa92b042b7ad511b31a1a12, type: 2}
-  - {fileID: 11400000, guid: eb8089c19c8e0c84f962a527d9d931ec, type: 2}
-  - {fileID: 11400000, guid: 6f347b8cb4c1f2d48b81dc26ee0e8fc6, type: 2}
+  - {fileID: 11400000, guid: 3ef022e6eb746334a8cd7ecef2dde03a, type: 2}
+  - {fileID: 11400000, guid: c0032ee253a038c4aac2ae7fb77f5422, type: 2}
+  - {fileID: 11400000, guid: 709044d33ac8df64f896492761d9107e, type: 2}
+  - {fileID: 11400000, guid: f356489862f523e469141a31514a2c2e, type: 2}
+  - {fileID: 11400000, guid: ea41fa6cab70a184e80c228571c2adab, type: 2}
+  - {fileID: 11400000, guid: 5c14d455470810e4a8410dc5ada23764, type: 2}
 --- !u!114 &3413882858027769544
 MonoBehaviour:
   m_ObjectHideFlags: 0

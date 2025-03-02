@@ -5,7 +5,11 @@ using UnityEngine.UI;
 
 public class GrandmaDataHolder : MonoBehaviour
 {
+    [SerializeField] private float sizeMultiplier = 1f;
+
     public GrandmaData GrandmaData;
+
+    private Image image;
 
     private Animator _animator;
     public Animator Animator
@@ -18,6 +22,11 @@ public class GrandmaDataHolder : MonoBehaviour
         set => _animator = value;
     }
 
+    private void Awake()
+    {
+        image = GetComponent<Image>();
+    }
+
     private void Start()
     {
         SetAnimator();
@@ -25,6 +34,10 @@ public class GrandmaDataHolder : MonoBehaviour
 
     public void SetAnimator()
     {
+        if (image == null) return;
         Animator.runtimeAnimatorController = GrandmaData.AnimatorController;
+        Animator.Update(0f);
+        RectTransform rectTransform = transform as RectTransform;
+        rectTransform.sizeDelta = image.sprite.rect.size * sizeMultiplier;
     }
 }
