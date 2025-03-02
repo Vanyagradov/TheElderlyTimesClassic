@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
 
+#if UNITY_EDITOR
 public static class EditorCurveExtensions
 {
     public static EditorCurveBinding BindToImageSprite(this EditorCurveBinding editorCurveBinding)
@@ -24,3 +25,4 @@ public static class EditorCurveExtensions
         return editorCurveBinding;
     }
 }
+#endif

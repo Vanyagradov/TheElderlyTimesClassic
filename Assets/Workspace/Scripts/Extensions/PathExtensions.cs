@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
 public static class PathExtensions
 {
     public static T[] GetAssetsFromFolder<T>(this string path) where T : Object
@@ -19,3 +20,4 @@ public static class PathExtensions
         return matchingAssets.ToArray();
     }
 }
+#endif
